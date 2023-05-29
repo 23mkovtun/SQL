@@ -45,3 +45,4 @@ create table if not exists collection_track (
     track_id integer references track(id),
     constraint collection_track_pk primary key (collection_id, track_id)
 );
+abra
